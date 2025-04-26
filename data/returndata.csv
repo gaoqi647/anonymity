@@ -1,0 +1,4 @@
+Normalization,Initialization,Convolutions,Position Embeddings,Pooling Operations,Regularization,Data Augmentagion,Feedforward Networks,Attention Mechanisms,Attention Modules,Skip Connections,Activation Functions,Learning Rate Schedules,Training Algorithm,Output Functions,Dataset,train_size,test_size,number_label,cos,JS,L2,Test_Input,Input_Size,Framwork,paraeters,batch size,learning rate,epochs,Hardware,Number
+400,3,976,3,21,2590,7505920,112,15,9,10,4096,9,12,1,,,,,,,,,,,,,,,27,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,,,,,,,,,,,,,,,0,
+,,,,,,,,,,,,,,,22,1803460,328500,5089,0.09754324,0.408972877,0.151814908,845,845,4,3000,40000,50,64000,,512
