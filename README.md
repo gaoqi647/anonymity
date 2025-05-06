@@ -1,7 +1,7 @@
 # EfficientDL: Automatic Performance Prediction and Component Recommendation for Deep Learning Systems
 
 Current automatic deep learning (i.e., AutoDL) frameworks rely on training feedback from actual runs, which often hinder their ability to provide quick and clear performance predictions for selecting suitable DL systems. To address this issue, we propose **EfficientDL**, an innovative deep learning board designed for automatic performance prediction and component recommendation.
-
+![框架图](https://github.com/gaoqi647/anonymity/blob/main/EfficientDL.pdf)
 **EfficientDL** can quickly and precisely recommend twenty-seven system components and predict the performance of DL models without requiring any training feedback. The magic of no training feedback comes from our proposed comprehensive, multi-dimensional, fine-grained system component dataset, which enables us to develop a static performance prediction model and comprehensive optimized component recommendation algorithm (i.e., αβ-BO search), removing the dependency on actually running parameterized models during the traditional optimization search process. The simplicity and power of **EfficientDL** stem from its compatibility with most DL models.
 
 We are in- ResNet50,MobileNetV3,EfficientNet-B0,MaxViT-T,Swin-B,DaViT-T was tested on 6 models, and the results of EfficientDL are as follows
@@ -30,7 +30,7 @@ We are in- ResNet50,MobileNetV3,EfficientNet-B0,MaxViT-T,Swin-B,DaViT-T was test
 </ul>
 The distribution of each image classification dataset in the dataset is shown in the following figure.
 
-![数据分布](https://github.com/OpenSELab/EfficientDL/blob/main/dataset/dataset.png)
+![数据分布](https://github.com/gaoqi647/anonymity/blob/main/dataset/dataset.png)
 
 Our pre-trained model and the pre-trained model after we recommend 6 examples are in the Baidu network disk link below.
 https://pan.baidu.com/s/1mftecYgKK5np1sxtBstoHw?pwd=7hnp 
