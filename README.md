@@ -36,6 +36,12 @@ Our pre-trained model and the pre-trained model after we recommend 6 examples ar
 https://pan.baidu.com/s/1mftecYgKK5np1sxtBstoHw?pwd=7hnp 
 
 You can test the results of the pretrained model with the following code
+### Requirements
+- Python3
+- PyTorch (> 1.0)
+- torchvision (> 0.2)
+- NumPy
+
 ```
 python test.py \
 --net_type resnet \
