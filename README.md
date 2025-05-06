@@ -35,3 +35,12 @@ The distribution of each image classification dataset in the dataset is shown in
 Our pre-trained model and the pre-trained model after we recommend 6 examples are in the Baidu network disk link below.
 https://pan.baidu.com/s/1mftecYgKK5np1sxtBstoHw?pwd=7hnp 
 
+You can test the results of the pretrained model with the following code
+```
+python test.py \
+--net_type resnet \
+--dataset imagenet \
+--batch_size 64 \
+--depth 50 \
+--pretrained /set/your/model/path/model_best.pth.tar
+```
