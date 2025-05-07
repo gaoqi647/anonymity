@@ -23,7 +23,7 @@ We are in- ResNet50,MobileNetV3,EfficientNet-B0,MaxViT-T,Swin-B,DaViT-T was test
 
 ## Directory Structure
 <ul>
-<li>We store our dataset dataset.json and data preprocessing code dataprocess.py in the dataset folder.</li>
+<li>We store our data preprocessing code dataprocess.py in the dataset folder.</li>
 <li>We store data such as encoding, decoding, and normalization in the data folder.</li> 
 <li>In the demo folder, we have the code acquisition_Functions.py of the collected function, all the Bayesian optimized code, and provide a bayesian_optimisation.py of test examples.</li>
 <li>We store the code for the ablation experiment in the Ablation folder.</li>
